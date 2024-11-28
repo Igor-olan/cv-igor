@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igor</title>
+
+    <style>
+      body{
+        background: linear-gradient(-45deg, rgb(0, 141, 141), rgb(20, 95, 138), rgb(0, 141, 141), rgb(20, 95, 138), rgb(0, 141, 141), rgb(20, 95, 138));
+        background-size: 200% 200%;
+        animation: bg 12s ease infinite;
+      }
+                        
+      @keyframes bg{
+        0%{
+          background-position: 0% 50%;
+        }
+        50%{
+          background-position: 100% 100%;
+        }
+        100%{
+          background-position: 50% 0%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
