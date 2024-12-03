@@ -10,6 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+import { AOS } from "aos";
 
 
 const Profile = () => {
@@ -61,9 +62,9 @@ const Profile = () => {
                         <h5 className="text-white">- Team work</h5>
                     </div>
                 </div>
-                <div className="column py-4 sm:text-center md:text-left ml-20">
+                <div className="column py-4 sm:text-center md:text-left ml-20 mr-24">
                     <h5 className="text-white font-medium">About me:</h5>
-                    <p className="text-white">Lulusan Pengembangan Perangkat Lunak dan Game dengan keahlian dasar</p>
+                    <p className="text-white">SMK PI graduate majoring in PPLG with basic skill of PHP, JavaScript, React, CSS. Ready to learn and contribute to creating innovative technology solutions</p>
                 </div>
                 <div className="flex flex-wrap ml-10 mr-20 justify-between">
                     <img
@@ -71,7 +72,7 @@ const Profile = () => {
                         height="96"
                         src={html}
                         width="96"
-                        className="mb-3 mr-3 ml-4"
+                        className="mb-3 mr-3 ml-7"
                     />
                     <img
                         alt="Hard skill"
@@ -99,7 +100,7 @@ const Profile = () => {
                         height="96"
                         src={css}
                         width="96"
-                        className="mb-3 mr-3 ml-4"
+                        className="mb-3 ml-4"
                     />
                 </div>
             </Card>
